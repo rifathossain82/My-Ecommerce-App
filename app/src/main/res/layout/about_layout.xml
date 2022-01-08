@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="eshop"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="version 1.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All rights reserved."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What's new"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About this app"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_info2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Choice Product\n2.Save To Cart\n3.Buy Product with spacial discount and offers. "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nWe always try to give you the best product.And our delivery system is very good.\nYou can get the product in one day.
+You can buy products in cash at the delivery system if you want"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nI think it's very useful in our daily life. And I hope it makes easy and simple your life.\nThere are about 3 million products here."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nIf you think it's a good app, please share this app with your friend and family person.\nAnd buy more and more products from us.\n\nThank you."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+    </LinearLayout>
+</ScrollView>

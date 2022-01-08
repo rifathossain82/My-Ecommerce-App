@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_exit"
+        android:title="Logout" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+    <item android:title="My Profile" >
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/nav_orders"
+                    android:icon="@drawable/ic_basket"
+                    android:title="My Orders" />
+                <item
+                    android:id="@+id/nav_cart"
+                    android:icon="@drawable/ic_cart"
+                    android:title="My Cart" />
+                <item
+                    android:id="@+id/nav_wishlist"
+                    android:icon="@drawable/ic_favorite"
+                    android:title="My Wishlist" />
+                <item
+                    android:id="@+id/nav_rewards"
+                    android:icon="@drawable/ic_rewards"
+                    android:title="My Rewards" />
+                <item
+                    android:id="@+id/nav_account"
+                    android:icon="@drawable/ic_account"
+                    android:title="My Account" />
+            </group>
+
+        </menu>
+
+    </item>
+    <item android:title="Helps &amp; Support" >
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="About" />
+                <item
+                    android:id="@+id/nav_terms"
+                    android:icon="@drawable/ic_baseline_privacy_tip_24"
+                    android:title="Terms &amp; Conditions" />
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_help"
+                    android:title="Help &amp; Support" />
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

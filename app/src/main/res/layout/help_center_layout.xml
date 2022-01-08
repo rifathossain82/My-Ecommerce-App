@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helps &amp; Support**"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Products are not showing?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check your internet connection. If your internet connection is interrupted or slow products are not shown. As a result, You will find a message like ''Access Denied''.\n\nTry to fix your internet or wifi connection.\n\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did access deny on the login page??"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:text="Check your internet connection. If your internet connection is interrupted or slow you could not log in to your account. As a result, You will find a message like ''Access Denied''.\n\nTry to fix your internet or wifi connection.\n\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923" />
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Did access deny on the sign up page??"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check your internet connection. If your internet connection is interrupted or slow you could not create a new account. As a result, You will find a message like ''Access Denied''.\n\nTry to fix your internet or wifi connection.\n\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up Failed?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please check your email address is correct. If you use another email or an unknown email you can not create a new account by this email.\n\n
+Try to use your own email address.\n\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is Delivery too late?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can see your ordered product in the 'My Order'.\nIf you find any issue, you can contact us. You can see a floating button on 'Home Page' which for a conversation with us.\n\nThank you so much to continue with us.\n\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+    </LinearLayout>
+</ScrollView>

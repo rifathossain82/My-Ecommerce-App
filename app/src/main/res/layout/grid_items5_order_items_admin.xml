@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item_cardviewid_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <LinearLayout
+            android:padding="10dp"
+            android:background="@drawable/button_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/id_ad_item"
+                android:padding="5dp"
+                android:fontFamily="@font/rubik_bold"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bill No.: 1"
+                android:textColor="@color/white"
+                android:background="@color/startColor"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+          <TextView
+              android:layout_marginTop="3dp"
+              android:id="@+id/name_ad_item"
+              android:padding="5dp"
+              android:fontFamily="@font/rubik_bold_italic"
+              android:layout_weight="1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Buyer Name: Rifat Hossain"
+              android:textColor="#FFFFFF"
+              />
+            <TextView
+                android:id="@+id/phone_ad_item"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number: 01882508771"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/address_ad_item"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: Sadar Hospital Mur, Feni Sadar, Feni,Chittagong."
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/d_place_ad_item"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Receiving Place: HOME"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/pname_ad_item"
+                android:padding="5dp"
+                android:fontFamily="@font/rubik_bold_italic"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Products Name: T-Shirt,Colorful Motorola Phone"
+                android:textColor="@color/startColor"
+                />
+            <TextView
+                android:id="@+id/price_ad_item"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Price:  Tk. 550"
+                android:textColor="@color/startColor"
+                />
+            <TextView
+                android:id="@+id/o_date_ad_item"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order Date: 26-01-2021"
+                android:textColor="@color/startColor"
+                />
+
+            <Spinner
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerid_ad_item"
+                android:textSize="18sp"
+                android:entries="@array/status"
+                android:textColor="@color/startColor"
+                android:backgroundTint="@color/white"
+                android:background="@color/startColor"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
